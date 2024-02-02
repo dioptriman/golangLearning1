@@ -1,0 +1,54 @@
+Kelebihan Go
+Go memiliki kelebihan dibanding bahasa lainnya, beberapa di antaranya:
+
+1. Mendukung konkurensi di level bahasa dengan pengaplikasian cukup mudah
+2. Mendukung pemrosesan data dengan banyak prosesor dalam waktu yang bersamaan (pararel processing)
+3. Memiliki garbage collector
+4. Proses kompilasi sangat cepat
+5. Bukan bahasa pemrograman yang hirarkial dan bukan strict OOP, memberikan kebebasan ke developer perihal bagaimana cara penulisan kode.
+6. Dependensi dan tooling yang disediakan terbilang lengkap.
+7. Dukungan komunitas sangat bagus. Banyak tools yang tersedia secara gratis dan open source yang bisa langsung dimanfaatkan.
+
+Start Project
+Note : go mod init (to initialize the go project)
+
+Run Program via CLI
+Note : go run <program name>
+
+Package
+Note : Minimal harus ada satu package di program go karena kita membutuhkan package main paling minimal, package tersebut akan dieksekusi pertama kompilasi
+
+Import 
+Note : Import untuk memasukan package lain ke program kita, sedangkan fmt dibutuhkan sebagai I/O Stream
+
+Println
+Note : Println bisa menampung parameter sampai dengan tak hingga
+
+Komentar
+Note : Inline komentar di Go (//) sedangkan multiline komentar di Go (/* */)
+
+Variables
+Note : Untuk mendeklarasikan variables maka formatnya adalah var <Nama Variable> <Tipe Data>, Golang dapat menggunakan manifest typing -> tipe data dideklarasikan (w/ var) maupun inference typing -> tipe data tidak dideklarasikan (w/o var), pendeklarasian tipe data sifatnya optional jika pakai var harus menggunakan = sedangkan jika tidak := tetapi hanya digunakan sekali pada saat deklarasi pertama kali.
+
+Multi Variables
+Note : Contoh penerapan
+1. var first, second, third string
+first, second, third = "satu", "dua", "tiga"
+
+2. var fourth, fifth, sixth string = "empat", "lima", "enam"
+
+3. seventh, eight, ninth := "tujuh", "delapan", "sembilan"
+
+4. one, isFriday, twoPointTwo, say := 1, true, 2.2, "hello" -> Bisa lebih dari satu tipe data
+
+Underscore Variable
+Note : Underscore (_) adalah reserved variable yang bisa dimanfaatkan untuk menampung nilai yang tidak dipakai. Bisa dibilang variabel ini merupakan keranjang sampah.
+
+Variable using make
+Note : Keyword ini hanya bisa digunakan untuk pembuatan beberapa jenis variabel saja, yaitu:
+        1. Channel
+        2. Slice
+        3. Map
+
+
+
