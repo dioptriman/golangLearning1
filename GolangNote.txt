@@ -53,5 +53,11 @@ Note : Keyword ini hanya bisa digunakan untuk pembuatan beberapa jenis variabel 
 Condition
 Note : Go tidak mendukung ternary operation
 
+Switch - Case
+Note : Keyword fallthrough digunakan untuk memaksa proses pengecekan diteruskan ke satu case selanjutnya dengan tanpa menghiraukan nilai kondisinya, jadi satu case di pengecekan selanjutnya tersebut selalu dianggap benar (meskipun aslinya adalah salah). Dalam sebuah switch lebih dari satu fallthrough bisa di tempatkan untuk memaksa melanjutkan proses pengecekan ke satu case setelahnya.
+
+Loops
+Note : Di Go keyword perulangan hanya for saja, tetapi meski demikian, kemampuannya merupakan gabungan for, foreach, dan while ibarat bahasa pemrograman lain.
+
 
 
