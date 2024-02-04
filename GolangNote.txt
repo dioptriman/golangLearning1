@@ -50,5 +50,8 @@ Note : Keyword ini hanya bisa digunakan untuk pembuatan beberapa jenis variabel 
         2. Slice
         3. Map
 
+Condition
+Note : Go tidak mendukung ternary operation
+
 
 
